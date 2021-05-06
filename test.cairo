@@ -37,6 +37,10 @@ func main{output_ptr : felt*}():
     let(local x)=pow(4,2)
     serialize_word(x)
     serialize_word(1 + 100)
+    serialize_word(1 - 100)
+    serialize_word(9*9)
+    serialize_word(7/3)
+
     # Add your code here.
 
     return ()
